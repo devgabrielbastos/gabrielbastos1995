@@ -1,0 +1,30 @@
+body {
+    background-image: url('background title screen.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: center;  
+    align-items: center;             
+}
+
+button {
+    background-color: white;
+    border-radius: 2px;
+    margin-top: 20px;        
+    font-weight: bold;
+    font-size: x-large;
+    color: gray;
+    text-shadow: 0.5px 0.5px 0.5px white;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button:active {
+    color: dimgray;
+}
